@@ -18,13 +18,13 @@ div, p {
     font-family: 'Poppins', 'Farsan', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
       font-family: 'Quivert', serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #eed295; /* Background color for the entire website, including individual sections */
+  --background-color: #FBF6EC; /* Background color for the entire website, including individual sections */
   --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #050d18; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #149ddd; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -45,8 +45,8 @@ h1, h2, h3 {
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #eed295;
-  --surface-color: #ffffff;
+  --background-color: #FBF6EC;
+  --surface-color: #FBF6EC;
 }
 
 .dark-background {
