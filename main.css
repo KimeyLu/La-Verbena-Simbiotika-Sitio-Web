@@ -13,7 +13,6 @@
       font-style: normal; /* Optional: Define font style */
 }
 
-
 div, p {
     font-family: 'Poppins', 'Farsan', sans-serif;
 }
@@ -27,7 +26,7 @@ h1, h2, h3, h4 {
   --background-color: #FBF6EC; /* Background color for the entire website, including individual sections */
   --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #050d18; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #149ddd; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: red; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -45,9 +44,10 @@ h1, h2, h3, h4 {
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #FBF6EC;
+  --background-color: red;
   --surface-color: #FBF6EC;
 }
+
 
 .dark-background {
   --background-color: #040b14;
