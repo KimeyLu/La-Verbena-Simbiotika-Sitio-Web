@@ -115,9 +115,14 @@
     <main >
 
         <!--para los tamaños usar Minimum-Viewport Height-xx (min-vh-xx) --->
-        <section class="py-5 min-vh-100 pt-5 position-relative" id="Inicio" > <!--!!-->     
+        <section class="min-vh-100 position-relative" id="Inicio" > <!--!!-->     
             
-            <div class="container section title mt-3">
+            <div class="position-absolute"> 
+                    <img class="img-fluid" src="images/FondoInicio.svg" alt="">
+                        <!--<p class="display-1 " style="color: blueviolet;">aaecacaeccac</p>-->
+            </div>
+
+            <div class="container section title mt-5 position-relative">
                 <div class="row text-center">
                     <p>
                             Universo <strong>Simbiótica</strong>
@@ -128,13 +133,9 @@
                 </div>
             </div>
             
-            <div class="container px-5 align-self-end">
+            <div class="container px-5 align-self-end position-relative">
 
-                <div id="Inicio-background" class="position-absolute"> 
-                        <p class="display-1 " style="color: blueviolet;">aaecacaeccac</p>
-                </div>
-
-                <div class="row pt-4 pb-3 position-relative">
+                <div class="row pt-4 pb-3 ">
 
                     <div class="col-md-8 offset-md-2">
                         <img class="img-fluid" src="images/LaVerbenaTituloC.svg" alt="La Verbena">
@@ -165,7 +166,7 @@
             
             <!--Descripción Universo / Discurso-->
         <div id="Universo Simbiótica">
-                <img src="images/OSTRA.svg" class="h-25 position-absolute " alt="">
+                <img src="images/OSTRA.svg" class="h-25 position-absolute " style="mix-blend-mode: luminosity;" alt="">
             
             <div class="container px-5">
                 
@@ -189,7 +190,7 @@
 
                     <div class="col-md-5 offset-sm-1 align-self-end mt-5" data-aos="fade-right" data-aos-duration="3000">
                         <!--<h1>opcion 1</h1>-->
-                        <img src="images/LIENZO.png" class="img-fluid position-absolute" style="margin-top: -5rem; margin-left: 1rem;" alt="">
+                        <img src="images/LIENZO.png" class="img-fluid position-absolute" style="margin-top: -5rem; margin-left: 1rem; mix-blend-mode: multiply;" alt=""> <!--esto de la trasnaprencia tiene pinta de ser además un problema de zindex, despues probar con otro png con fondo transparente, a ver si cambia algo-->
 
                         <div class="position-relative">
                             <img src="images/Rectangle150.png" class="img-fluid"  alt="">
@@ -204,7 +205,8 @@
 
         </div>
 
-            <div class="container px-5">
+
+        <div id="Discurso" class="container px-5">
                 <div class="row py-5" data-aos="fade-up" data-aos-easing="ease-in-sine">
                     <div class="col-lg-2 offset-md-5 align-self-start">
                         <p >Discurso: </p>
@@ -213,15 +215,26 @@
                         <h1 class="display-4">Buena Tierra <br> = <br> Buena Gente</h1>
                     </div>
                 </div>
-            </div>
+        </div>
                     
 
-            <div class="container px-5">
-                <div class="row">
-                    <div class="col-sm-3">
+        <div id="La Verbena">
+            <div class="container px-5 pb-5">
+                    <div class="col-sm-4">
                         <img class="img-fluid" src="images/LaVerbenaTituloB.svg" alt="La Verbena">
                     </div>
-                    <div class="col-lg-6 align-self-start lead mw-1 ">
+            </div>
+             
+            <div>
+                <div class="d-flex justify-content-end">
+                <img src="images/ImgLaVerbenaA.png" class="position-absolute " style="height: 18%;" alt=""> <!--hay que añadir  un media querys aca para la imagen, se em ocurre un effecto de difuminado, quemado-->
+
+                </div>
+            
+                <div class="container px-5 position-relative">
+
+                <div class="row">
+                    <div class="col-lg-9 align-self-start lead mw-1 ">
                         <p>
                             “La Verbena” es un fenómeno micológico en el que una vez al año, los hongos purificadores con energía y
 
@@ -232,33 +245,27 @@
                             vive esa noche más cantidad de esporas dan los hongos.
                         </p>
                     </div>
-                    <div class="col-sm-3">
-                        <p>
-                            acscasc
-                        </p>
-                    </div>
                 </div>
+                    
+                
                 <div class="row py-5">
                     <div class="col-sm-6 lead mw-1">
                         <p>
-                            La gente se reúne en las plazas para presenciar este acontecimiento y celebrar durante la noche con música, comida y bebidas preparadas con esporas del año anterior.
-                        </p>
-                    </div>
-                    <div class="col-sm-6 lead mw-1">
-                        <p>
+                            La gente se reúne en las plazas para presenciar este acontecimiento y celebrar durante la noche con música, comida y bebidas preparadas con esporas del año anterior. <br>
                             Se visten con telas translúcidas o
 
                             prendas que reflejan la luz, accesorios de tecnología obsoleta, y maquillajes llamativos de rituales.
-
-                            Al amanecer, cuando las esporas comienzan a descender del cielo, la multitud las atrapa para
-
-                            fermentarlas y guardarlas, asegurando una bebida rica en propiedades ancestrales, que beberán en la
-
-                            próxima celebración.
                         </p>
                     </div>
+                    <div class="col-sm-4 offset-sm-1 mw-1">
+                        <img src="images/ImgLaVerbenaB.png" class="img-fluid" alt="">
+                    </div>
                 </div>
+                </div >
             </div>
+
+                
+        </div>
 
             <!--personajes-->
             <div class="container section title">
