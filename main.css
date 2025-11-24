@@ -292,6 +292,11 @@ h1, h2, h3, h4 {
     width: 1rem;
 }*/
 
+body {
+  background-image: url('images/nnnoise(1).svg');
+  background-size: auto auto;
+}
+
 .col {
     background-color: red;
 }
