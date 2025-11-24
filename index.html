@@ -114,6 +114,7 @@
 
     <main >
 
+        
         <!--para los tamaños usar Minimum-Viewport Height-xx (min-vh-xx) --->
         <section class="min-vh-100 position-relative" id="Inicio" > <!--!!-->     
             
@@ -162,7 +163,7 @@
         
         </section>
 
-        <section class="py-5 min-vh-100 position-relative" id="Historia" >
+        <section class="pt-5 min-vh-100 position-relative" id="Historia" >
             
             <!--Descripción Universo / Discurso-->
         <div class="position-relative" id="Universo Simbiótica">
@@ -170,27 +171,25 @@
             
             <div class="container px-5">
                 
-                <div class="row">
-                    <div class="container section title px-5 py-5" data-aos="fade-right" data-aos-duration="3000">
-                    <p class="d-inline">¿Qué es el </p> <!--seguir editando-->
-                    <h1 class="display-4 d-inline" >UNIVERSO <br>  SIMBIÓTICA?</h1>
+                <div class="row py-5" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="container" >
+                        <p class="d-inline lead">¿Cómo es el </p> <!--seguir editando-->
+                    </div>
+                    <div class="container" >
+                        <h1 class="display-4 d-inline" >UNIVERSO <br>  SIMBIÓTICA?</h1> 
                     </div>
                 </div>
 
                 <div class="row">
-                    <!--opcion 2?-->
-                    <!--<div class="col-md-3 offset-md-5">
-                        <img src="images/LIENZO.png" class="img-fluid position-absolute" alt="">
-                    </div> -->
+
 
                     <div class="col-sm-6 align-self-start lead mw-1 " >
                         <p style="max-width: 100%; overflow-wrap: break-word;">
-                        Argentina, un pais donde Los humanos desarrollan una relación simbiótica entre su estilo de vida, su cultura y la naturaleza. La biotecnología y las modificaciones genéticas del hongo son la forma más común de buscar soluciones para los problemas de la sociedad. Por esto, muchas de las nuevas tecnologías tienen una mezcla entre materiales naturales y artificiales. Hongos biomodificados purifican el aire, y las aguas.  El alimento sano es abundante, se hace cultural el reciclaje, y la organización social para ayudarse entre todos y al medioambiente.</p>
-                    </div>
+En Simbiótica, el aire limpio y el ritmo de vida permiten estar más presentes para poder apreciar cada instante. <br> Nuestra convivencia se basa en la conexión y el cuidado colectivo. No existen clases sociales, sino que garantizamos una mejor vida para todos, entre todos.                    </div>
 
                     <div class="col-md-5 offset-sm-1 align-self-end mt-5" data-aos="fade-right" data-aos-duration="3000">
                         <!--<h1>opcion 1</h1>-->
-                        <img src="images/LIENZO.png" class="img-fluid position-absolute" style="margin-top: -5rem; margin-left: 1rem; mix-blend-mode: multiply;" alt=""> <!--esto de la trasnaprencia tiene pinta de ser además un problema de zindex, despues probar con otro png con fondo transparente, a ver si cambia algo-->
+                        <img src="images/LIENZO.svg" class="img-fluid position-absolute" style="margin-top: -5rem; margin-left: 1rem; mix-blend-mode: multiply;" alt=""> <!--esto de la trasnaprencia tiene pinta de ser además un problema de zindex, despues probar con otro png con fondo transparente, a ver si cambia algo-->
 
                         <div class="position-relative">
                             <img src="images/Rectangle150.png" class="img-fluid"  alt="">
@@ -206,7 +205,13 @@
         </div>
 
 
-        <div id="Discurso" class="container px-5 py-5">      
+        <div id="Discurso" class="position-relative" style="background-image: url(images/FabricTextureDiscurso.png); overflow: hidden;">
+            <div class="position-absolute" >
+                <!--<img class="position-absolute img-fluid" src="images/FabricTextureDiscurso.png" alt="">-->
+                 <img class=" img-fluid " style="opacity: 0.7; object-fit: cover; mix-blend-mode: multiply;" src="images/LucesDiscurso.png" alt="">
+            </div>
+
+            <div class="container px-5 py-5 position-relative">    
                 <div class="row">
                     <h1 class="display-1" style="opacity: 0;">RELLENORELLENORELLENO</h1>
                 </div>
@@ -214,25 +219,25 @@
                     <h1 class="display-1" style="opacity: 0;">RELLENORELLENORELLENO</h1>
                 </div>
                 
-                <div class="row g-0">
+                <div class="row g-0 text-center">
                     <div class="col-lg">
-                        <h1 class="display-3 text-center">
+                        <h1 class="display-3 ">
                                 "Buena
                         </h1>
                     </div>
                     <div class="col-lg">
-                        <h1 class="display-3 text-center">
+                        <h1 class="display-3 ">
                                 tierra,
                         </h1>
                     </div>
-                    <div class="col-lg">
-                        <h1 class="display-3 text-center">
+                    <div class="col-lg ">
+                        <h1 class="display-3 ">
                                 buena
                         </h1>
                     </div>
                     <div class="col-lg">
-                        <h1 class="display-3 text-center">
-                                gente"
+                        <h1 class="display-3 ">
+                            gente"
                         </h1>
                     </div>
                 </div>
@@ -243,19 +248,22 @@
                 <div class="row">
                     <h1 class="display-1" style="opacity: 0;">RELLENORELLENORELLENO</h1>
                 </div>
+            </div>
         </div>
+
                     
 
-        <div id="La Verbena">
+        <div id="La Verbena" class="position-relative">
+
             <div class="container px-5 pb-5">
                     <div class="col-sm-4">
                         <img class="img-fluid" src="images/LaVerbenaTituloB.svg" alt="La Verbena">
                     </div>
             </div>
              
-            <div>
+            <div class="position-relative">
                 <div class="d-flex justify-content-end">
-                <img src="images/ImgLaVerbenaA.png" class="position-absolute " style="height: 18%;" alt=""> <!--hay que añadir  un media querys aca para la imagen, se em ocurre un effecto de difuminado, quemado-->
+                <img src="images/ImgLaVerbenaA.png" class="position-absolute " style="height: 18%;" alt=""> <!--hay que arreglar esto y añadir el media querys-->
 
                 </div>
             
@@ -290,13 +298,18 @@
                     </div>
                 </div>
                 </div >
-            </div>
-
-                
+            </div>      
         </div>
 
+        <div id="Personajes" class="position-relative" style=" overflow: hidden;">
+
+        <div class="position-absolute">
+                <img style="width: 100%;" src="images/image 656.png" alt="">
+        </div>
+            
+        <div class="position-relative">
             <!--personajes-->
-            <div class="container section title px-5 py-5" id="Personajes">
+            <div class="container section title px-5 py-5" >
                 <h1 class="display-3">PERSONAJES</h1>
             </div>
 
@@ -332,8 +345,9 @@
                 </div>
             </div>
 
+            <!--
             <div class="container px-5">
-                <!--personaje 1-->
+                
                 <div class="row py-3">
                     <h1 class="col-md-4 " data-aos="fade-right" data-aos-duration="1500">Agregar una imagen acá</h1>
                     <div class="col-lg-7 offset-md-1" data-aos="fade-right" data-aos-duration="3000">
@@ -345,7 +359,6 @@
                         </p>
                     </div>
                 </div>
-                <!--personaje 2-->
                 <div class="row py-3">
                     <div class="col-lg-7 " data-aos="fade-left" data-aos-duration="3000">
                         <h2 class="display-5">
@@ -357,7 +370,6 @@
                     </div>
                     <h1 class="col-md-4 offset-md-1" data-aos="fade-up" data-aos-duration="1500">Agregar una imagen acá</h1>
                 </div>
-                <!--personaje 3-->
                 <div class="row py-3">
                     <h1 class="col-md-4 " data-aos="fade-right" data-aos-duration="1500">Agregar una imagen acá</h1>
                     <div class="col-lg-7 offset-md-1" data-aos="fade-right" data-aos-duration="3000">
@@ -369,10 +381,15 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+        </div>
+        </div>
+
+
         </section>
 
-        <section class=" py-5 min-vh-100 position-relative" id="Primer Dispositivo">
+        <section class=" py-5 min-vh-100 position-relative" id="Primer Dispositivo" style="background-image: url(images/FabricTextureBackground.png); background-size: 100% auto; ">
             
             <div class="container section title px-5">
                 <h1 class="display-3 ">Simbiotizador</h1>
@@ -483,13 +500,20 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
         
         </section>
 
-        <section class=" py-5 min-vh-100" id="Transmedia">
+        <section class=" min-vh-100" id="Transmedia" style="overflow: hidden;" >
             
-            <div class="container section title px-5 pb-5">
+            <div  style="background-image: url(images/paper.png); background-size: 150% auto;" >
+
+            <div class="position-absolute" >
+                 <img class=" img-fluid " style="opacity: 0.6; mix-blend-mode: screen; " src="images/Reflejos.png" alt="">
+            </div>
+
+            <div class="container section title pt-5 px-5 pb-5 position-relative">
                 <h1 class="display-3">TRANSMEDIA</h1>
             </div>
             
-            <div class="container px-5 py-5">
+            
+            <div class="container px-5 py-5 position-relative">
                 <div class="row pb-5">
                     <div class="col-md-5">
                         <p class="lead"> <!--se usa lead-->
@@ -500,10 +524,10 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                         </p>
                     </div>
                     <div class="col-md-5 offset-sm-2">
-                        <img src="images/MapaTransmedias.svg" class="img-fluid" alt="Mapa de las transmedia, el mapa se ve como raices que empiezan cuando alguien camina en la facultad y termina en el dia de la muestra final, en el medio las raices se conectan primero con la Performance, mesa grafica, y el instagram de simbiótica, después, afiches, simbiotiny, cuentas de Tumblr de los personajes, Flyer y form para el taller de cianotipia fanzines, y por ultimo el taller de cianotipia la simbioseñal y el fungitest que conectan directamente con la muestra final.">
+                        <img src="images/MapaTransmedias.svg" class="img-fluid" style="height: 80%;" alt="Mapa de las transmedia, el mapa se ve como raices que empiezan cuando alguien camina en la facultad y termina en el dia de la muestra final, en el medio las raices se conectan primero con la Performance, mesa grafica, y el instagram de simbiótica, después, afiches, simbiotiny, cuentas de Tumblr de los personajes, Flyer y form para el taller de cianotipia fanzines, y por ultimo el taller de cianotipia la simbioseñal y el fungitest que conectan directamente con la muestra final.">
                     </div>
                 </div>
-                <div class="row pt-5">
+                <div class="row">
                     <div class="col-md-4">
                         <p class="text-center">
                             Fanzines
@@ -533,24 +557,11 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                     </div>
                 </div>
             </div>
-
-            <!--MAPA (terminar)-->
-            <div class="container mw-10 h-100 px-5">
-                <div class="row">
-                    <div class="col-sm align-self-start">
-                    One of three columns
-                    </div>
-                    <button class="btn btn-primary">HOLA</button>
-                    <div class="col-lg align-self-center w-5" id="rojo">
-                    One of three columns
-                    </div>
-                    <div class="col-sm align-self-end">
-                    One of three columns
-                    </div>
-                </div>
             </div>
+            
 
             <!--REDES-->
+        <!--
             <h1 class="display1 px-5 py-5">Redes</h1>
             <div class="container px-5 py-5">
                 <div class="row">
@@ -581,8 +592,15 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                     </div>
                 </div>        
             </div>
+        -->
 
-            <div class="container px-5 py-5">
+        <div id="Simbio Tiny" class="position-relative"  style="overflow: hidden; ">
+
+            <div class="position-absolute">
+                    <img style="width: 100%; height: auto;" src="images/paper.png" alt="">
+            </div>
+
+            <div class="container px-5 py-5 position-relative" >
                 <div class="row">
                     <div class="col-lg-4">
                     <h2 class="display-5 text-end">Simbio <br> Tiny-Desk</h2>
@@ -599,8 +617,10 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!--promocion fisica y grafica-->
+        <!--
+        <div class="position-relative">
             <h1 class="display1 px-5 py-5">Promoción fisica y grafica</h1>
             <div class="container px-5 py-5">
                 <div class="row">
@@ -638,18 +658,16 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                     </p>
                 </div>       
             </div>
-
-        </div>
-        
+        </div> -->
         </section>
 
         <section class=" py-5 min-vh-100" id="Instalación final">
             
-            <div class="container section title">
+            <div class="container section title px-5">
                 <h1 class="display1">INSTALACIÓN FINAL</h1>
             </div>
 
-            <div class="container mw-10 h-100 py-5">
+            <div class="container mw-10 h-100 py-5 px-5">
                 <div class="row">
                     <div class="col-sm-3 align-self-start text-end">
                         <p style="overflow-wrap: break-word;">
@@ -706,8 +724,8 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                             <div class="card">
                                 <div class="card-body d-flex flex-column">
                                     <div>
-                                        <p class="card-title">Card title</p>
-                                        <h3 class="card-text">Nombre</h3>
+                                        <p class="card-title">Interacción</p>
+                                        <h3 class="card-text">Brenda <br> Santilli </h3>
                                     </div>
                                 </div>
                             </div>
@@ -717,10 +735,9 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                             <div class="card">
                                 <div class="card-body d-flex flex-row">
 
-
                                     <div>
                                         <p class="card-title">Card title</p>
-                                        <h3 class="card-text">Nombre</h3>
+                                        <h3 class="card-text">Clara <br> Ponz <br> Ruiz</h3>
                                     </div>
                                     
                                 </div>
@@ -734,8 +751,8 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                             <div class="card">
                                 <div class="card-body d-flex flex-row">
                                     <div>
-                                        <p class="card-title">Card title</p>
-                                        <h3 class="card-text">Nombre</h3>
+                                        <p class="card-title">Ilustración</p>
+                                        <h3 class="card-text">Kimey <br> Peñalba </h3>
                                     </div>
                                 </div>
                             </div>
@@ -745,8 +762,8 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                             <div class="card">
                                 <div class="card-body d-flex flex-column">
                                     <div>
-                                        <p class="card-title">Card title</p>
-                                        <h3 class="card-text">Nombre</h3>
+                                        <p class="card-title">Diseño Visual</p>
+                                        <h3 class="card-text">Mer  </h3>
                                     </div>
                                 </div>
                             </div>
@@ -759,8 +776,8 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                             <div class="card">
                                 <div class="card-body d-flex flex-column">
                                     <div>
-                                        <p class="card-title">Card title</p>
-                                        <h3 class="card-text">Nombre</h3>
+                                        <p class="card-title">Montaje</p>
+                                        <h3 class="card-text">Milena Peñaloza</h3>
                                     </div>
                                 </div>
                             </div>
@@ -770,8 +787,8 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                         <div class="card">
                                 <div class="card-body d-flex flex-row">
                                     <div>
-                                        <p class="card-title">Card title</p>
-                                        <h3 class="card-text">Nombre</h3>
+                                        <p class="card-title">Producción</p>
+                                        <h3 class="card-text">Julia <br> Maria <br> Olguín </h3>
                                     </div>
                                 </div>
                         </div>
@@ -783,8 +800,8 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                         <div class="card">
                             <div class="card-body d-flex flex-row">
                                     <div>
-                                        <p class="card-title">Card title</p>
-                                        <h3 class="card-text">Nombre</h3>
+                                        <p class="card-title">Escenografía</p>
+                                        <h3 class="card-text">Valentina <br> Leonor <br> Cuatrini  </h3>
                                     </div>
                             </div>
                         </div>
@@ -794,8 +811,8 @@ HONGOS !! HABLAR DE LOS HONGOS Y QUE ESTÁ VIVO Y QUE ETC ETC  masksdakj saljkjs
                         <div class="card">
                             <div class="card-body d-flex flex-column">
                                     <div>
-                                        <p class="card-title">Card title</p>
-                                        <h3 class="card-text">Nombre</h3>
+                                        <p class="card-title">Programación</p>
+                                        <h3 class="card-text">Walter Custodio</h3>
                                     </div>
                             </div>
                         </div>
