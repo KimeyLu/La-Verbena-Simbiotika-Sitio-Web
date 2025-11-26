@@ -25,7 +25,7 @@ h1, h2, h3, h4 {
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
  /* Color for headings, subheadings and title throughout the website */
-  --accent-color: red; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #BB4E3A; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
  /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
   --bs-body-bg: #FBF6EC; /*ESTA, esta es la unica etiqueta que cambia de color el sitio*/
 }
@@ -33,25 +33,25 @@ h1, h2, h3, h4 {
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #a8a9b4;  /* The default color of the main navmenu links */
-  --nav-hover-color: #1ad545; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #EFB446; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #040b14; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #040b14; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #a8a9b4; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #1ad545; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #EFB446; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
   --background-color: #4162dd;
-  --surface-color: #1e9d2b;
+  --surface-color: #BB4E3A;
 }
 
 
 .dark-background {
   --background-color: #040b14;
   --default-color: #1ad545;
-  --heading-color: #1ad545;
+  --heading-color: #BB4E3A;
   --surface-color: #151f2b;
   --contrast-color: #1ad545;
 }
